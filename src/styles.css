@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #676767;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #6D9AC4;
+}
+
+h1 {
+  font-size: medium;
+  margin-bottom: 24px;
+}
+
+.container {
+  width: 300px;
+  padding: 32px 32px 60px 32px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  margin-bottom: 24px;
+}
+
+form input {
+  width: 100%;
+  line-height: 20px;
+  border-radius: 5px;
+  border: 2px solid #bbb;
+  margin-bottom: 16px;
+}
+
+form button {
+  background: #EE5684;
+  padding: 10px 50px;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+  width: 100%;
+  font-weight: 900;
+}
+
+.container p {
+  text-align: center;
+}
+

@@ -1,0 +1,14 @@
+<!-- <app-form [formType]="formType"></app-form> -->
+
+  <div class="container">
+    <h1>LOGIN</h1>
+    <form action="signin()" method="post">
+      <label for="email_username">Email/Username</label>
+      <input type="text" name="email_username" id="email_username" #username_email>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" #password>
+      <button type="submit" (click)="onClick($event,username_email,password)">LOGIN</button>
+    </form>
+    <p>Need an account? <a routerLink="/">SIGN UP</a></p>
+  </div>
+  {{message}}
